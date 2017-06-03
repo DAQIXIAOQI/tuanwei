@@ -1,0 +1,379 @@
+/*-------------------三级页面通用样式-------------------------*/
+
+div#third-page-imgchannel {
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+div#third-page-main {
+    width: 1020px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+div#third-page-main-nav {
+    width: 220px;
+    height: auto;
+    position: relative;
+    top: -75px;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+}
+div#third-page-main-nav h3 {
+    position: relative;
+    height: 75px;
+    line-height: 75px;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    background: rgba(65, 105, 225, 0.7);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#B24169E1,endColorstr=#B24169E1);
+    border-bottom: 4px solid brown;
+}
+div#third-page-main-nav ul#thirdNav {
+    width: 100%;
+    height: 770px;
+    background: url(../image/menu_bg.png) no-repeat;
+    background-size: cover;
+}
+div#third-page-main-nav ul li.third-li {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    cursor: pointer;
+}
+div#third-page-main-nav ul li.third-li span {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    display: inline-block;
+}
+ul.special-fouthNav {
+    width: 220px;
+    height: auto;
+}
+ul.special-fouthNav li {
+    border-left:4px solid brown;
+    width: 216px;
+    height: 30px;
+    line-height: 30px;
+    color: black;
+    font-size: 16px; 
+    cursor: pointer;
+}
+ul.special-fouthNav li:hover {
+    border-left:4px solid #4169E1;
+}
+div#third-page-main-nav ul li.third-li.hover {
+    height: auto;
+}
+div#third-page-main-nav ul li.third-li span.hover {
+    background: lightgray;
+}
+div#third-page-main-nav ul li.third-li:hover {
+   /*height: auto;*/
+}
+div#third-page-main-box {
+    width: 740px;
+    min-height: 770px;
+    position: relative;
+    float: left;
+    padding: 30px 30px 80px 30px;
+    background: white;
+}
+div#third-page-main-box-header {
+    width: 100%;
+    position: relative;
+    height: 75px;
+    border-bottom: 2px solid #4169E1;
+}
+div#third-page-main-box-header span {
+    font-size: 13px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+div#third-page-main-box-header h4 {
+    height: 55px;
+    line-height: 55px;
+    font-size: 30px;
+    font-weight: 300;
+}
+div#third-page-main-box-main {
+    padding: 20px 0;
+    text-indent: 40px;
+    line-height: 180%;
+}
+div#third-page-main-box-main h3 {
+    line-height: 50px;
+    height: 50px;
+}
+div#third-page-main-box-main h4 {
+    line-height: 40px;
+    height: 40px;
+}
+.clearflx:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+/*-------------------三级页面通用样式-------------------------*/
+div#third-page-main-box-main div.page-box {
+    position: relative;
+    width: 100%;
+    display: none;height: auto;
+}
+div#third-page-main-box-main div.page-box ul {
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+div#third-page-main-box-main div.page-box ul li {
+    position: relative;
+    width: 94%;
+    height: 30px;
+    padding: 5px 0;
+    margin: 0 3%;
+    text-indent: 0px;
+    list-style-type: square;
+    list-style-position: inside;
+    color: rgb(65,105,225);
+    font-size: 14px;
+    border-bottom: 1px lightgray dashed;
+}
+div#third-page-main-box-main div.page-box ul li a {
+    color: black;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+div#third-page-main-box-main div.page-box ul li a:hover {
+    color: rgb(65,105,225);
+}
+div#third-page-main-box-main div.page-box ul li span.article-time {
+    position: relative;
+    float: right;
+    display: inline-block;
+    color: black;
+}
+
+/*-页面跳转-*/
+
+div#list-page {
+    position: relative;
+    width: 94%;
+    height: auto;
+    text-indent: 0px;
+    top: 20px;
+    margin: 0 3%;   
+}
+div#list-page div.list-page-top {
+    color: rgb(150,150,150);
+    font-size: 13px;
+    float: left;
+}
+div#list-page div.list-page-top span {
+    display: inline-block;
+    margin: 0 5px;
+}
+div#list-page div.list-page-bottom{
+    height: 32px;  
+    width: 470px;
+    margin: 0 auto;
+    color: gray;
+    float: right;
+}
+div#list-page div.list-page-bottom div.list-page-bottom-left {
+    width: 310px;
+    float: left;
+}
+div#list-page div.list-page-bottom div.list-page-bottom-right {
+    width: 150px;
+    float: right;
+}
+div#list-page div.list-page-bottom div.list-page-bottom-right input {
+    position: relative;
+    top: -1px;
+    width: 30px;
+    height: 28px;
+    border:1px solid rgb(150,150,150);
+    margin: 0 5px;
+    text-align: center;
+    color: rgb(130,130,130);
+}
+div#list-page div.list-page-bottom  span {
+    font-weight: 100;
+    font-size: 16px;
+    display: inline-block;
+    padding: 0 10px;
+    color: #336699;
+}
+div#list-page div.list-page-bottom a {
+     border: 1px solid rgb(150,150,150); 
+     color: #336699;
+}
+div#list-page div.list-page-bottom a:hover {
+   background: #336699; 
+    color: white;
+    border-color: #336699;
+}
+div#list-page a {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 5px;
+    margin: 0 3px;;
+}
+div#list-page a.page-first-btn {
+    float: left;
+}
+div#list-page a.page-last-btn {
+    float: right;
+}
+div#list-page a.page-left-btn {
+     width: 30px;
+     float: left;
+     padding: 0px;
+     background: url(../image/page-left-btn.png) no-repeat;  
+}
+div#third-page-main-box div#list-page a.page-left-btn:hover {
+    background: url(../image/page-left-btn-hover.png) #336699;
+}
+div#list-page a.page-right-btn{
+    width: 30px;
+    float: right;
+    padding: 0px;
+    background: url(../image/page-right-btn.png) no-repeat; 
+}
+div#third-page-main-box div#list-page a.page-right-btn:hover{
+     background: url(../image/page-right-btn-hover.png) #336699;
+}
+
+/*--*/
+
+/*团委老师页面*/
+
+div#page1-2 {
+    position: relative;
+    height: auto;
+}
+div#third-page-main-box-main div#page1-2 li {
+    list-style-type: none;
+    height: auto;
+    border: none;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+    
+}
+div.teacher-img-box {
+    width:25%;
+    height: auto;
+    border-radius: 100%;
+    overflow: hidden;
+}
+div.teacher-information{
+    width: 70%;
+    height: auto;
+}
+div.teacher-information h4 {
+    font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 400;
+}
+div.teacher-information p {
+    color: black;
+    font-weight: 600;
+}
+div.teacher-information p span {
+    font-weight: 100;
+}
+div.teacher-left-box {
+    float: left;
+    text-align: right;
+}
+div.teacher-right-box {
+    float: right;
+}
+
+div#pagecont{
+    padding: 15px 20px;
+    margin: 0px;
+    font-size: 14px;
+    border-top: 1px #FFFFFF solid;
+    color: #000000;
+    background: #FFFFFF;
+    line-height: 28px;
+}
+div.page1-3-img{
+    width: 200px;
+    margin: 40px 0px 0px 0px;
+    float: right;
+    text-indent: 0px;
+}
+div.page1-3left{
+    width: 520px;
+    float: right;
+    overflow: hidden;
+}
+
+/*表格下载页面*/
+div#page3-2-box {
+    width: 100%;
+    position: relative;
+}
+div#third-page-main-box-main div#page3-2-box ul li {
+    width: 125px;
+    height: 125px;
+    list-style-type: none;
+    float: left;
+    border-bottom: none;
+    margin: 10px;
+}
+div#third-page-main-box-main div#page3-2-box ul h5 {
+   font-size: 22px;
+    padding: 5px 0px;
+    text-indent: 0px;
+    color: #003366;
+    border-bottom: rgb(230,230,230) dashed 2px;
+    margin: 10px;
+    font-weight: 100;
+}
+div#third-page-main-box-main div#page3-2-box ul li a {
+    font-size: 21px;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    border-radius: 5px;
+    display: block;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+     background-repeat: no-repeat;
+}
+div#third-page-main-box-main div#page3-2-box ul li a.file-table {
+    background-color: #336699;
+    background-image: url(../image/tabletext.png);
+}
+
+div#third-page-main-box-main div#page3-2-box ul li a.file-table:hover {
+    background-color:#8CB3D9;
+}
+
+div#third-page-main-box-main div#page3-2-box ul li a.file-method {
+  background-color: #FF7142;
+    background-image: url(../image/filetext.png);
+}
+div#third-page-main-box-main div#page3-2-box ul li a.file-method:hover {
+    background-color:  #FFAB8F;
+}
+}
+

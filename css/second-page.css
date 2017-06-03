@@ -1,0 +1,86 @@
+div#second-page-bigimg {
+    position: relative;
+    width: 98%;
+    margin: 0 auto;
+    min-width: 1020px;
+    max-width: 1250px;
+    height: 300px;
+}
+div#second-page-bigimg-box {
+    width: 100%;
+    height: 100%;
+}
+div#second-page-bigimg-header {
+    position: absolute;
+    left: 50%;
+    bottom: -10%;
+    width: 30%;
+    height: auto;
+    background-color: rgba(65, 105, 225, .8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C84169E1,endColorstr=#C84169E1);
+    text-align: center;
+    padding: 30px;
+    font-size: 13px;
+    color: white;
+}
+div#second-page-bigimg-header span.header-intro {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 15px;
+}
+div#second-page-bigimg-header h3 {
+    position: relative;
+    font-size: 35px;
+    font-weight: 300;
+    border-bottom: 1px solid lightgray;
+}
+div#second-page-intro {
+    position: relative;
+    width: 930px;
+    height: auto;
+    margin: 50px auto 210px auto;
+}
+div#second-page-intro h3 {
+    font-size: 25px;
+    font-weight: 300;
+    color: rgba(65, 105, 225, 1);
+    /*兼容IE8  rbga（）不兼容效果 */
+}
+div#second-page-intro ul {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 30px 0;
+    width: 960px;
+    overflow: hidden;
+}
+div#second-page-intro ul li {
+    float: left;
+    width: 290px;
+    height: 250px;
+    margin: 30px 30px 0 0;
+    overflow: hidden;
+}
+div#second-page-intro ul li div.intro-img-box {
+    width: 100%;
+    height: 150px;
+    transition-duration: 1s;
+    position: relative;
+}
+div#second-page-intro ul li div.intro-img-box:hover {
+    transform: scale(1.12);
+    filter: alpha(opacity: 80);
+    opacity: 0.8;
+}
+div#second-page-intro ul li h4 {
+    position: relative;
+    z-index: 2;
+    height: 100px;
+    line-height: 100px;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(65, 105, 225, 8);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#C84169E1,endColorstr=#C84169E1);
+    color: white;
+    font-weight: 300;
+}
